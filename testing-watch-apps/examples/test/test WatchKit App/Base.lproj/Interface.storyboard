@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11163.2" systemVersion="16A201w" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11133"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11064"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="test_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="ZvB-7N-kZt">
+                            <items>
+                                <label alignment="left" text="Label" id="gbM-ue-U6g"/>
+                                <label alignment="left" text="Label" numberOfLines="5" id="Sks-11-zkn"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="birthdateLabel" destination="Sks-11-zkn" id="Isi-Fj-NEd"/>
+                        <outlet property="nameLabel" destination="gbM-ue-U6g" id="FQx-c0-gJJ"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
